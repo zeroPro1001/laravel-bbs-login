@@ -19,4 +19,8 @@ Route::resource('posts', 'PostsController', ['only' => ['create', 'store', 'show
 Route::resource('posts', 'PostsController', ['only' => ['create', 'store', 'show', 'edit', 'update', 'destroy']]);
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+/*Route::get('/home', 'HomeController@index')->name('home');*/
+Route::get('/', function () {
+	return view('top');
+});
+
