@@ -28,7 +28,7 @@ class PostsController extends Controller
 
     Post::create($params);
 
-    return redirect()->route('top');
+    return redirect('/');
 	}
     public function show($post_id)
     {
@@ -68,6 +68,6 @@ class PostsController extends Controller
         $post->delete();
     });
 
-    return redirect()->route('top');
+    return redirect('/');
     }
 }

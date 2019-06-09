@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layouts.app')
 
 @section('content')
     <div class="container mt-4">
@@ -48,7 +48,7 @@
                     </div>
 
                     <div class="mt-5">
-                        <a class="btn btn-secondary" href="{{ route('top') }}">
+                        <a class="btn btn-secondary" href="/">
                             キャンセル
                         </a>
 

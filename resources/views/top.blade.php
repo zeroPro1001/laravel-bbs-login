@@ -34,8 +34,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="http://127.0.0.1:8000/login">ログインはこちら</a>
-                    <a href="http://127.0.0.1:8000/register">新規登録はこちら</a>       
+                    <a href="/login">ログインはこちら</a>
+                    <a href="/register">新規登録はこちら</a>       
                 </div>
             </div>
         </div>
